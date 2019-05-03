@@ -15,9 +15,17 @@ public final class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Test add should return sum of two numbers")
-    public void testAdd() {
+    @DisplayName("Test add(2,3) should return 5")
+    public void testAdd2Plus3() {
         int result = calculator.add(2, 3);
+
+        assertEquals(result, 5);
+    }
+
+    @Test
+    @DisplayName("Test add(3,3) should return 6")
+    public void testAdd3Plus3() {
+        int result = calculator.add(3, 3);
 
         assertEquals(result, 5);
     }

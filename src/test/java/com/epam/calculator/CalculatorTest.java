@@ -27,6 +27,6 @@ public final class CalculatorTest {
     public void testAdd3Plus3() {
         int result = calculator.add(3, 3);
 
-        assertEquals(result, 5);
+        assertEquals(result, 6);
     }
 }
